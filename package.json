@@ -1,0 +1,31 @@
+{
+  "name": "vanilla-js-state-management-boilerplate",
+  "version": "1.0.0",
+  "description": "This is the skeletal structure to help you build a state managment system in vanilla JavaScript. This is so you can follow the [CSS-Tricks tutorial](https://css-tricks.com/build-a-state-management-system-with-vanilla-javascript).",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack": "^4.23.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankchizljaw/vanilla-js-state-management-boilerplate.git"
+  },
+  "author": "mohamed mhiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hankchizljaw/vanilla-js-state-management-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hankchizljaw/vanilla-js-state-management-boilerplate#readme"
+}
